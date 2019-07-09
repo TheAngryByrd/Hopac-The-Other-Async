@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Cancellation.fs" />
+    <Compile Include="Evaluation.fs" />
+    <Compile Include="Recursion.fs" />
+    <Compile Include="Memoization.fs" />
+    <Compile Include="Buffers.fs" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Expecto.Hopac" Version="8.10.1" />
+    <PackageReference Include="Taskbuilder.fs" Version="2.1.0" />
+  </ItemGroup>
+</Project>
